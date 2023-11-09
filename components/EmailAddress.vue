@@ -1,7 +1,7 @@
 <template>
-  <input
-    type="text"
-    placeholder="Email Address"
-    class="px-5 py-4 rounded-[10px] text-white bg-zinc-950 shadow-inner border border-cyan-400 backdrop-blur-2xl justify-start items-center gap-2.5 inline-flex focus:outline-none"
-  />
+  <div
+    class="h-[50px] w-[245px] rounded-md bg-gradient-to-b from-[#18C8FF] via-[#933FFE] p-[1px]"
+  >
+    <input type="text" placeholder="Email Address" class="text-white h-[45px] w-full p-3 bg-zinc-950 rounded-lg focus:outline-none" />
+  </div>
 </template>

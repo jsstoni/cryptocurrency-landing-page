@@ -1,6 +1,9 @@
 <template>
   <div class="relative">
-    <div class="w-[990px] mx-auto h-[890px]">
+    <div
+      class="absolute top-0 left-0 -z-10 w-full h-[1117px] bg-[url(assets/img/bg-img.webp)] bg-no-repeat bg-contain-height bg-center"
+    ></div>
+    <div class="w-[990px] mx-auto h-[1070px]">
       <nav class="flex flex-row items-center py-5">
         <img src="/logo.png" alt="" />
 
@@ -24,7 +27,7 @@
         </div>
       </nav>
 
-      <div class="flex-col justify-start items-center gap-4 flex mt-10">
+      <div class="flex-col justify-start items-center gap-4 flex mt-[110px]">
         <h1
           class="w-[780px] text-center text-white text-[85px] font-black leading-[110.50px]"
         >
@@ -38,11 +41,6 @@
         <btn-action title="Get Started" url="https://google.cl" />
       </div>
     </div>
-    <img
-      src="~/assets/img/bg-img.webp"
-      class="absolute top-0 left-0 -z-10 w-full h-full select-none"
-      alt=""
-    />
   </div>
 </template>
 

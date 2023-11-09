@@ -1,10 +1,8 @@
 <template>
   <div class="relative h-[600px]">
-    <img
-      src="~/assets/img/imglateral2.webp"
-      class="absolute -top-[780px] left-0 -z-10 select-none"
-      alt=""
-    />
+    <div
+      class="absolute -top-[880px] left-0 -z-10 w-full h-[1450px] bg-[url(assets/img/imglateral2.webp)] bg-no-repeat bg-contain-height bg-left"
+    ></div>
     <div class="w-[990px] mx-auto flex flex-row">
       <div>
         <h3 class="mt-[90px] text-4xl text-white font-bold leading-[45px]">
@@ -14,11 +12,9 @@
       </div>
       <img :src="blok.image" alt="" />
     </div>
-    <img
-      src="~/assets/img/bg-gradient-img-3.webp"
-      class="absolute -top-[280px] right-0 -z-10 select-none"
-      alt=""
-    />
+    <div
+      class="absolute -top-[360px] right-0 -z-20 w-full h-[945px] bg-[url(assets/img/bg-gradient-img-3.webp)] bg-no-repeat bg-contain-height bg-right"
+    ></div>
   </div>
 </template>
 

@@ -1,10 +1,8 @@
 <template>
   <footer class="relative h-[400px] overflow-hidden pt-10">
-    <img
-      src="~/assets/img/bg-gradient-img-4.webp"
-      class="absolute top-0 left-0 -z-10 select-none"
-      alt=""
-    />
+    <div
+      class="absolute top-0 left-0 -z-10 w-full h-[562px] bg-[url(assets/img/bg-gradient-img-4.webp)] bg-no-repeat bg-contain-height bg-left"
+    ></div>
     <div class="w-[990px] mx-auto grid md:grid-cols-3 gap-12 text-zinc-400">
       <div>
         <img src="/logo.png" class="mb-4" />

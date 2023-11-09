@@ -1,10 +1,8 @@
 <template>
   <div class="relative h-[550px]">
-    <img
-      src="~/assets/img/bg-gradient-img-1.webp"
-      class="absolute -top-[380px] left-0 -z-10 select-none"
-      alt=""
-    />
+    <div
+      class="absolute -top-[380px] left-0 -z-10 w-full h-[1143px] bg-[url(assets/img/bg-gradient-img-1.webp)] bg-no-repeat bg-contain-height bg-left"
+    ></div>
     <div class="w-[990px] mx-auto flex flex-row">
       <img :src="blok.image" alt="" />
       <div>

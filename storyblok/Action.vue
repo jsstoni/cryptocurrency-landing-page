@@ -2,11 +2,9 @@
   <div
     class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[460px]"
   >
-    <img
-      src="~/assets/img/imglateral1.webp"
-      class="absolute -top-[120px] right-0 -z-10 select-none"
-      alt=""
-    />
+    <div
+      class="absolute -top-[120px] right-0 -z-10 w-full h-[1045px] bg-[url(assets/img/imglateral1.webp)] bg-no-repeat bg-contain-height bg-right"
+    ></div>
     <h1
       class="w-[740px] text-center text-white text-[45px] font-black leading-[50.50px]"
     >

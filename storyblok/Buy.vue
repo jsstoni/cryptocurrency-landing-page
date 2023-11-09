@@ -1,12 +1,10 @@
 <template>
   <div
-    class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[824px]"
+    class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[924px]"
   >
-    <img
-      src="~/assets/img/bg-gradient-img-2.webp"
-      class="absolute -top-[780px] right-0 -z-10 select-none"
-      alt=""
-    />
+    <div
+      class="absolute -top-[780px] right-0 -z-10 w-full h-[1463px] bg-[url(assets/img/bg-gradient-img-2.webp)] bg-no-repeat bg-contain-height bg-right"
+    ></div>
     <h1
       class="w-[740px] text-center text-white text-[45px] font-black leading-[50.50px]"
     >
