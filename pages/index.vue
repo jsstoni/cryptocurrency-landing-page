@@ -7,6 +7,11 @@
 </template>
 
 <script setup>
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+});
 useSeoMeta({
   title: "Cryptocurrency Landing Page",
   ogTitle: "Cryptocurrency Landing Page",

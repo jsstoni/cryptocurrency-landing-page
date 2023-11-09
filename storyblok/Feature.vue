@@ -10,7 +10,7 @@
     <p class="text-slate-400 text-base leading-normal text-center">
       {{ blok.description }}
     </p>
-    <link-action class="mt-auto" :title="blok.link_title" />
+    <link-action class="mt-auto" :title="blok.link_title" url="#" />
   </div>
 </template>
 
