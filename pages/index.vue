@@ -7,8 +7,11 @@
 </template>
 
 <script setup>
-useHead({
+useSeoMeta({
   title: "Cryptocurrency Landing Page",
+  ogTitle: "Cryptocurrency Landing Page",
+  description: "Cryptocurrency Landing Page, para practicar en diseño",
+  ogDescription: "Cryptocurrency Landing Page, para practicar en diseño",
 });
 const story = await useAsyncStoryblok("home", { version: "draft" });
 </script>
