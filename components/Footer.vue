@@ -1,5 +1,5 @@
 <template>
-  <footer class="relative h-[410px] overflow-hidden pt-10">
+  <footer class="relative h-[360px] overflow-hidden pt-10">
     <div
       class="absolute top-0 left-0 -z-10 w-full h-[562px] bg-[url(assets/img/bg-gradient-img-4.webp)] bg-no-repeat bg-contain-height bg-left"
     ></div>
