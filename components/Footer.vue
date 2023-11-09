@@ -1,7 +1,7 @@
 <template>
   <footer class="relative h-[400px] overflow-hidden pt-10">
     <img
-      src="./../assets/img/bg-gradient-img-4.webp"
+      src="~/assets/img/bg-gradient-img-4.webp"
       class="absolute top-0 left-0 -z-10 select-none"
       alt=""
     />

@@ -3,7 +3,7 @@
     class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[300px]"
   >
     <img
-      src="./../assets/img/circles.webp"
+      src="~/assets/img/circles.webp"
       class="absolute -top-[180px] left-0 -z-10 select-none"
       alt=""
     />

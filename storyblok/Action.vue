@@ -3,7 +3,7 @@
     class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[460px]"
   >
     <img
-      src="./../assets/img/imglateral1.png"
+      src="~/assets/img/imglateral1.webp"
       class="absolute -top-[120px] right-0 -z-10 select-none"
       alt=""
     />

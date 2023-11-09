@@ -39,7 +39,7 @@
       </div>
     </div>
     <img
-      src="./../assets/img/bg-img.webp"
+      src="~/assets/img/bg-img.webp"
       class="absolute top-0 left-0 -z-10 w-full h-full select-none"
       alt=""
     />

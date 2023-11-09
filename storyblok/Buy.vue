@@ -3,7 +3,7 @@
     class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[824px]"
   >
     <img
-      src="./../assets/img/bg-gradient-img-2.webp"
+      src="~/assets/img/bg-gradient-img-2.webp"
       class="absolute -top-[780px] right-0 -z-10 select-none"
       alt=""
     />

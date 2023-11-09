@@ -1,7 +1,7 @@
 <template>
   <div class="relative h-[600px]">
     <img
-      src="./../assets/img/imglateral2.webp"
+      src="~/assets/img/imglateral2.webp"
       class="absolute -top-[780px] left-0 -z-10 select-none"
       alt=""
     />
@@ -15,7 +15,7 @@
       <img :src="blok.image" alt="" />
     </div>
     <img
-      src="./../assets/img/bg-gradient-img-3.webp"
+      src="~/assets/img/bg-gradient-img-3.webp"
       class="absolute -top-[280px] right-0 -z-10 select-none"
       alt=""
     />
