@@ -5,7 +5,7 @@
     ></div>
     <div class="w-[990px] mx-auto h-[1070px]">
       <nav class="flex flex-row items-center py-5">
-        <img src="/logo.png" alt="" />
+        <img src="/logo.png" alt="coinflip" />
 
         <ul class="ml-auto flex flex-row items-center gap-8">
           <li v-for="(link, index) in links" :key="index">

@@ -10,7 +10,7 @@
         </h3>
         <p class="text-slate-400 leading-normal">{{ blok.description }}</p>
       </div>
-      <img :src="blok.image" alt="" />
+      <img :src="blok.image" :alt="blok.title" />
     </div>
     <div
       class="absolute -top-[360px] right-0 -z-20 w-full h-[945px] bg-[url(assets/img/bg-gradient-img-3.webp)] bg-no-repeat bg-contain-height bg-right"

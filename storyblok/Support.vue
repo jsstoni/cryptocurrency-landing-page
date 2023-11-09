@@ -4,7 +4,7 @@
       class="absolute -top-[380px] left-0 -z-10 w-full h-[1143px] bg-[url(assets/img/bg-gradient-img-1.webp)] bg-no-repeat bg-contain-height bg-left"
     ></div>
     <div class="w-[990px] mx-auto flex flex-row">
-      <img :src="blok.image" alt="" />
+      <img :src="blok.image" :alt="blok.title" />
       <div>
         <h3 class="mt-[90px] text-4xl text-white font-bold leading-[45px]">
           {{ blok.title }}
