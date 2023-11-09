@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[400px]"
+    class="relative flex-col justify-start items-center gap-4 flex mt-10 h-[350px]"
   >
     <div
       class="absolute -top-[180px] left-0 -z-10 w-full h-[937px] bg-[url(assets/img/circles.webp)] bg-no-repeat bg-contain-height bg-center"

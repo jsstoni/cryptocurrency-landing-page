@@ -16,7 +16,7 @@
       {{ blok.description }}
     </p>
     <link-action :title="blok.btn_title" :url="blok.link.url" />
-    <img :src="blok.image" class="mt-5" alt="" />
+    <img :src="blok.image" class="mt-5" alt="table" />
   </div>
 </template>
 
